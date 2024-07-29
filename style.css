@@ -8,7 +8,7 @@ a {
 a:hover {
   background-color: yellow;
 }
-
+/* header section */
 .header {
   display: flex;
   flex-direction: row;
@@ -17,6 +17,7 @@ a:hover {
   color: white;
   padding: 10px;
 }
+/* navbar section */
 .nav {
   /* background-color: white; */
   padding: 10px;
@@ -30,6 +31,7 @@ a:hover {
   align-items: center;
   justify-content: space-evenly;
 }
+/* section 1 */
 .section1 {
   display: flex;
   flex-direction: row;
@@ -38,6 +40,7 @@ a:hover {
 .digital {
   padding: 0 53px 0 0;
 }
+/* section 2 */
 .section2 {
   display: flex;
   flex-direction: row;
@@ -46,10 +49,12 @@ a:hover {
   justify-content: space-evenly;
   padding: 80px 0;
 }
+/* design section */
 .design {
   text-align: center;
   padding: 80px 0;
 }
+/* section 3 */
 .section3 {
   display: flex;
   flex-direction: row;
@@ -58,6 +63,7 @@ a:hover {
 .build {
   margin-right: 94px;
 }
+/* section 4 */
 .section4 {
   display: flex;
   flex-direction: row;
@@ -69,6 +75,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
 }
+/* section 5 */
 .section5 {
   background-color: #fbeeca;
   padding: 80px 0;
@@ -76,14 +83,17 @@ a:hover {
   flex-direction: column;
   text-align: center;
 }
+/* section 6 */
 .create {
   padding: 80px 0;
   text-align: center;
 }
+/* section 7 */
 .section7 {
   display: flex;
   flex-direction: row;
 }
+/* section 8 */
 .section8 {
   display: flex;
   flex-direction: row;
@@ -92,12 +102,13 @@ a:hover {
   margin: 80px 0;
   padding: 0 0 0 94px;
 }
+/* section 9 */
 .section9 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-
+/* section 10 */
 .section10 {
   margin: 80px 0;
   display: flex;
@@ -120,6 +131,7 @@ a:hover {
 button:hover {
   box-shadow: 3px 3px;
 }
+/* section 11 */
 .section11 {
   margin: 80px 0;
   padding: 0 60px;
@@ -127,10 +139,6 @@ button:hover {
   flex-direction: column;
 }
 
-/* .heading{
-  display: flex;
-  flex-direction: row;
-} */
 .column {
   display: flex;
   flex-direction: row;
@@ -145,17 +153,16 @@ button:hover {
 .best {
   justify-content: center;
 }
+/* section 12 */
 .section12 {
-  /* margin: 80px 0; */
   padding: 80px;
   display: flex;
 }
 .need {
   margin: 0 94px 0 0;
 }
+/* section 13 */
 .section13 {
-  /* display: flex;
-  flex-direction: column; */
   text-align: center;
   padding: 80px 0;
   background-color: black;
@@ -164,13 +171,14 @@ button:hover {
 .b_white:hover {
   box-shadow: 2px 2px white;
 }
+/* section 14 */
 .section14 {
   display: flex;
   flex-direction: column;
   padding: 40px;
   background-color: #e7b75f;
 }
-
+/* section 15 */
 .section15 {
   display: flex;
   flex-direction: column;
@@ -193,16 +201,12 @@ button:hover {
 }
 .footer {
   display: flex;
-  /* justify-content: space-evenly; */
   gap: 30px;
   padding: 60px 0;
   margin: 0 64px;
   border-bottom: 1px solid black;
 }
-/* .product{
-  
-  justify-content: center;
-} */
+
 .p_list {
   width: 130px;
   padding: 0 10px;
@@ -244,7 +248,6 @@ button:hover {
   margin-bottom: 20px;
 }
 .mcp {
-  /* width: 140px; */
   padding: 10px;
 }
 .footer_links {
@@ -278,7 +281,6 @@ button:hover {
   background-color: #e7b75f;
   width: 177px;
   padding: 10px;
-  /* justify-content: center; */
 }
 .rights {
   width: 588px;
@@ -286,7 +288,6 @@ button:hover {
 .rights p {
   display: inline;
   font-size: 13px;
-  /* justify-content: center; */
 }
 
 /* Media Queries */
@@ -420,19 +421,22 @@ button:hover {
 }
 
 /* Page 2 Ecommerce CSS */
+
+/* E-commerce Section */
 .ecommerce {
   padding: 80px 0;
   text-align: center;
 }
+/* Product Advice section */
 .productadvice {
   background-color: #f6f6f4;
   display: flex;
   padding: 80px 60px;
-  /* gap: 40px; */
 }
 .advice {
   margin-left: 80px;
 }
+/* e-commerce topics section */
 .topics {
   padding: 80px 0;
   display: flex;
@@ -463,12 +467,14 @@ button:hover {
 .e_business a {
   text-decoration: none;
 }
+/* E_commerce Automation section */
 .e_automation {
   display: flex;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
   margin: 20px 160px;
 }
+/* QuyCup Section */
 .quy {
   display: flex;
   margin: 0 160px;
@@ -477,17 +483,20 @@ button:hover {
   margin: 20px;
   padding: 10px;
 }
+/* marketing Glossary section */
 .glossary {
   display: flex;
   margin: 20px 160px 80px;
   gap: 20px;
 }
+/* Start E-Commerce Business section */
 .start_ecommerce {
   display: flex;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
   margin: 20px 160px;
 }
+/* Core E-commerce Glossary section */
 .core {
   display: flex;
   margin: 0 160px;
@@ -496,19 +505,17 @@ button:hover {
   margin: 20px;
   padding: 10px;
 }
+/* Buy a Domain section */
 .buy {
   display: flex;
   margin: 20px 160px 80px;
   gap: 20px;
 }
-
+/* Subscribe section */
 .subscribe {
   background-color: #241c15;
   color: #fff;
   padding: 120px 0;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 .layout {
   margin: 0 225px;
@@ -534,20 +541,22 @@ button:hover {
 .para_sign {
   text-align: center;
 }
+/* Success Stories section */
 .success {
   background-color: #e8f1fa;
   padding: 80px 60px;
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
   gap: 100px;
 }
+/* Retail marketing section */
 .r_m {
   display: flex;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
   margin: 80px 160px 16px;
 }
+/* Stand out section */
 .stand {
   display: flex;
   margin: 0 160px;
@@ -556,6 +565,7 @@ button:hover {
   margin: 20px;
   padding: 10px;
 }
+/* Marketing Mix section */
 .mix {
   display: flex;
   margin: 20px 160px 80px;
@@ -614,7 +624,6 @@ button:hover {
 
 /* For screens up to 400px */
 @media (max-width: 400px) {
-
   .ecommerce h1 {
     font-size: 24px;
   }
